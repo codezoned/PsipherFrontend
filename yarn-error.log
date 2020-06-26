@@ -1,0 +1,40 @@
+Arguments: 
+  /snap/node/2850/bin/node /snap/node/2850/bin/yarn.js config get registry
+
+PATH: 
+  /tmp/yarn--1593188902991-0.1032950004211266:/usr/local/share/.config/yarn/global/node_modules/.bin:/usr/local/share/.config/yarn/link/node_modules/.bin:/snap/node/2850/libexec/lib/node_modules/npm/bin/node-gyp-bin:/snap/node/2850/lib/node_modules/npm/bin/node-gyp-bin:/snap/node/2850/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, write
+      at writeSync (fs.js:672:3)
+      at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+      at doWrite (_stream_writable.js:403:12)
+      at writeOrBuffer (_stream_writable.js:387:5)
+      at SyncWriteStream.Writable.write (_stream_writable.js:318:11)
+      at ConsoleReporter._log (/snap/node/2850/lib/cli.js:96769:17)
+      at ConsoleReporter.log (/snap/node/2850/lib/cli.js:96757:10)
+      at get (/snap/node/2850/lib/cli.js:87535:14)
+      at Object.<anonymous> (/snap/node/2850/lib/cli.js:25940:25)
+      at Generator.next (<anonymous>)
+
+npm manifest: 
+  {
+    "name": "psipherfrontend",
+    "version": "0.1.0",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
