@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-psipherfrontend-dev-03449-authRole",
+            "UnauthRoleArn": "arn:aws:iam::048831840217:role/amplify-psipherfrontend-dev-03449-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::048831840217:role/amplify-psipherfrontend-dev-03449-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-psipherfrontend-dev-03449-deployment",
+            "UnauthRoleName": "amplify-psipherfrontend-dev-03449-unauthRole",
+            "StackName": "amplify-psipherfrontend-dev-03449",
+            "StackId": "arn:aws:cloudformation:us-east-1:048831840217:stack/amplify-psipherfrontend-dev-03449/683bcba0-c3a9-11ea-92ee-0a4fdb0c1726",
+            "AmplifyAppId": "d2y46rs72xdymf"
+        },
+        "categories": {
+            "auth": {
+                "psipher": {}
+            }
+        }
+    }
+}
