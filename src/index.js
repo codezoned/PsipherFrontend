@@ -1,13 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import Amplify from 'aws-amplify';
+
+/** Presentational */
+import App from './components/App';
+import { GlobalStyles } from './global';
+
+/** Amplify config */
+import awsconfig from './aws-exports';
+
+/** Service worker */
 import * as serviceWorker from './serviceWorker';
 
+/** Configure amplify */
+Amplify.configure(awsconfig);
+
 ReactDOM.render(
-  <React.StrictMode>
+  <>
+    <GlobalStyles />
     <App />
-  </React.StrictMode>,
+  </>,
   document.getElementById('root')
 );
 

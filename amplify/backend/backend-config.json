@@ -1,0 +1,9 @@
+{
+    "auth": {
+        "psipher": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": []
+        }
+    }
+}
